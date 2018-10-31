@@ -17,11 +17,11 @@
       
       return (randomNumCookies*this.cusNum)
   }
-  let Silverspring = new cookiesStore('Silverspring',5, 20, 3)
-  let Hyattsville = new cookiesStore ('Hyattsville', 35, 150, 15)
-  let Greenbelt = new cookiesStore ('Greenbelt', 22, 120, 12)
+  let maryland = new cookiesStore('maryland',5, 20, 3)
+  let verginia = new cookiesStore ('verginia', 35, 150, 15)
+  let washington = new cookiesStore ('washington', 22, 120, 12)
 
-  cookies.push(Silverspring, Hyattsville, Greenbelt)
+  cookies.push(maryland,verginia,washington)
 
 let elHeader = document.createElement('tr')
   Table.appendChild(elHeader)
